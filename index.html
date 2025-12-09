@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAS - Central Authentication Service Connexion</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 p-6 flex flex-col justify-center items-center">
+    <div class="w-full max-w-4xl flex flex-col gap-5">
+        <nav class="bg-[#3a3a3a] text-sm font-sans">
+        <div class="container mx-auto px-4 py-3 flex items-center">
+            
+            <span class="uppercase font-semibold text-gray-300">
+                Università di Corsica
+            </span>
+            
+            <span class="mx-4 text-gray-500">|</span>
+            
+            <span class="uppercase font-semibold text-gray-300 mr-3">
+                Nos Portails :
+            </span>
+            
+            <ul class="flex items-center space-x-6">
+                <li>
+                    <a href="https://studia.universita.corsica/" class="text-white font-medium hover:text-orange-600">Étudiants</a>
+                </li>
+                <li>
+                    <a href="https://auth.univ-corse.fr/cas/login?id_site=&locale=fr&service=https://portailweb.universita.corsica/plugins/auth/auth_cas/auth_cas.php" class="text-white font-medium hover:text-orange-600">Personnels</a>
+                </li>
+                <li>
+                    <a href="https://ricerca.universita.corsica/" class="text-white font-medium hover:text-orange-600">Recherche</a>
+                </li>
+                <li>
+                    <a href="https://pro.universita.corsica/" class="text-white font-medium hover:text-orange-600">Partenaires pro</a>
+                </li>
+                <li>
+                    <a href="https://fundazione.universita.corsica/" class="text-white font-medium hover:text-orange-600">Fondation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        
+    <div class="bg-white shadow-lg p-4 rounded-lg flex justify-between items-center">
+        <div>
+            <img src="https://portail.universita.corsica/template/template_back_office/images/logo.png" alt="Paoli">
+        </div>
+        <div class="text-orange-600 text-3xl font-semibold">
+            <h1>Authentification 
+                <span class="text-black text-2xl font-normal">| Campus Numérique</span>
+            </h1>
+        </div>
+    </div>
+    <div class="bg-white shadow-lg p-6 rounded-lg flex flex-col gap-6">
+        <div class="text-orange-600 font-semibold">
+                <p>> Vous êtes étudiant, personnel, vacataire ou ALUMNI de l'Università di Corsica</p>
+        </div>
+        <form class="flex flex-col gap-5">
+            <div>
+                <label for="name" class="block text-1xl font-normal text-black mb-1">Identifiant:</label>
+                <input type="text" class="w-full p-2 border border-red-500 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400" 
+                    name="name" id="name" placeholder="entrer votre identifiant">
+                    
+            </div>
+            <div class="block text-1xl font-normal text-black mb-1">
+                <label for="password" >Mot de Passe:</label>
+                <input type="password" class="w-full p-2 border border-red-500 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400"  name="password" id="password">
+                    
+            </div>
+            <div class="text-orange-600">
+                <input type="button" class="cursor-pointer bg-white text-orange-600 border border-orange-600 rounded px-4 py-1 font-semibold hover:bg-orange-600 hover:text-white"
+                    value="SE CONNECTER">
+            </div>
+        </form>
+        
+        <div>
+            <span><a href="https://applisweb.universita.corsica/portail/PWD/guichet_activation_reset_compte-front.php?acces=ok&profil=&id_site=0&type=changement" class="text-[#026e85] underline">Mot de passe oublié?</a></span> 
+            <span><a target="_blank" href="https://dsin.universita.corsica/plugins/faq/listing_faq-front.php?id_faq=5&acces=ok&id_art=4515&id_rub=0&id_site=47&id_menu=0&header_plugin=ok" class="text-[#026e85] underline">besoin d'aide?</a></span>
+        </div>
+        <div>
+            <span>Pour des raisons de sécurité, veuillez vous <a href="https://auth.univ-corse.fr/cas/logout" class="text-[#026e85] underline">déconnecter</a> et fermer votre navigateur lorsque vous avez fini d’accéder aux services authentifiés.</span>
+        </div>
+        
+    </div>
+    <div  class="bg-white shadow-lg p-6 rounded-lg flex flex-col gap-6">
+        <div>
+            <span class="text-orange-600">> Vous êtes nouvel arrivant à l'Università di Corsica, pour activer votre compte <input type="submit" class="cursor-pointer bg-white text-orange-600 border border-orange-600 rounded px-4 py-1 font-semibold hover:bg-orange-600 hover:text-white" value="CLIQUEZ ICI" ></span>
+        </div>
+    </div>
+    <div  class="bg-white shadow-lg p-6 rounded-lg flex flex-col gap-6">
+        <div>
+            <span class="text-orange-600">> Vous êtes extérieur, pour vous connecter <input type="submit" class="cursor-pointer bg-white text-orange-600 border border-orange-600 rounded px-4 py-1 font-semibold hover:bg-orange-600 hover:text-white" value="CLIQUEZ ICI"></span>
+        </div>
+    </div>
+    <span><a class="text-[#026e85] underline" href="cours.html">COURS EN LIGNE</a></span>
+    
+
+    </div>
+    
+     
+    
+    
+</body>
+</html>
