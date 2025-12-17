@@ -1,4 +1,7 @@
-# 💻 Rapport Technique : ENT DE L’UNVERSITE DE CORSE
+# 📑 Rapport Technique : ENT DE L’UNVERSITE DE CORSE
+
+# NDUWIMANA Elvis
+# L3 STI
 
 ## 1. Objectif du Projet
 L'objectif était de développer un site web statique composé de trois pages interconnectées, reproduisant fidèlement l'expérience utilisateur du portail universitaire.
